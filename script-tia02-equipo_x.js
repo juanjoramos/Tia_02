@@ -126,7 +126,6 @@ window.addEventListener("scroll", function () {
     } else {
         navbar.classList.remove("shrink");
     }
-<<<<<<< HEAD
 });
 
 $(document).ready(function () {
@@ -137,6 +136,4 @@ $(document).ready(function () {
             $('.navbar-toggler').click();
         }
     });
-=======
->>>>>>> 8e6655650ffd5f12542cf58532cf8bfe64f7f65c
 });

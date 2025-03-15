@@ -7,10 +7,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-<<<<<<< HEAD
     list-style: none;
-=======
->>>>>>> 8e6655650ffd5f12542cf58532cf8bfe64f7f65c
 }
 
 body {
@@ -56,11 +53,7 @@ body {
 
 }
 .carousel-item {
-<<<<<<< HEAD
     height: 50vh;
-=======
-    height: 80vh;
->>>>>>> 8e6655650ffd5f12542cf58532cf8bfe64f7f65c
     min-height: 300px;
 }
 
@@ -88,11 +81,7 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-<<<<<<< HEAD
     /*background: rgba(0,0,0,0.5);*/
-=======
-    background: rgba(0,0,0,0.5);
->>>>>>> 8e6655650ffd5f12542cf58532cf8bfe64f7f65c
     z-index: 1;
 }
 
@@ -138,23 +127,15 @@ body {
     margin-bottom: 20px; /* Opcional: agrega un margen inferior para separar las secciones */
 }
 
-<<<<<<< HEAD
 .titulo_form {
     color: rgba(70, 142, 250, 0.63);
     margin-bottom: 20px;
-=======
-/* Opcional: ajusta el estilo del título del formulario */
-.titulo_form {
-    color: rgba(70, 142, 250, 0.63); /* Cambia el color del título a azul */
-    margin-bottom: 20px; /* Agrega margen inferior para separar el título del formulario */
->>>>>>> 8e6655650ffd5f12542cf58532cf8bfe64f7f65c
 }
 
 .btn {
     margin-top: 25px;
 }
 
-<<<<<<< HEAD
 .titulo_imagenes {
     text-align: center;
     margin: 10px 0 30px;
@@ -242,15 +223,12 @@ footer .col-md-4 img {
     max-width: 20px;
 }
 
-=======
->>>>>>> 8e6655650ffd5f12542cf58532cf8bfe64f7f65c
 @media (max-width: 640px) {
     .carousel-item {
         height: 70vh;
     }
 
     .w-100 {
-<<<<<<< HEAD
         height: 100%;
     }
 
@@ -299,11 +277,6 @@ footer .col-md-4 img {
         height: 100%;
     }
 
-=======
-        height: 70vh;
-    }
-
->>>>>>> 8e6655650ffd5f12542cf58532cf8bfe64f7f65c
     .carousel-caption {
         bottom: 125px;
     }
@@ -322,7 +295,6 @@ footer .col-md-4 img {
         line-height: 1.5;
         font-size: 12px;
     }
-<<<<<<< HEAD
 
     .galeria-imagenes-container {
         width: 80%;
@@ -376,75 +348,4 @@ footer .col-md-4 img {
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
     }
-=======
-}
-
-footer .col-md-4 div {
-    display: block; /* Asegura que los divs sean bloques */
-    margin-bottom: 10px; /* Espacio entre los elementos */
-}
-
-footer a {
-    display: flex; /* Cambiado a flex para alinear imagen y texto */
-    align-items: center; /* Centra verticalmente imagen y texto */
-    text-decoration: none;
-    color: #81b0f7;
-}
-
-footer img {
-    vertical-align: middle;
-    width: 20px;
-}
-
-footer a span {
-    margin-left: 5px; /* Espacio entre el logo y el texto */
-    font-size: 14px; /* Tamaño del texto */
-}
-
-footer {
-    background-color: #e8e9eb; /* Color de fondo claro */
-    padding: 20px 0;
-    text-align: left;
-}
-
-footer p {
-    margin: 5px 0;
-    font-size: 14px;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-.footer .container .row div {
-    margin-bottom: 1px;
-}
-
-@media (min-width: 70px) {
-    footer .container .row div {
-        margin-bottom: 10px;
-    }
-}
-
-footer img {
-    vertical-align: middle;
-    width: 20px; /* Cambia el tamaño aquí */
-}
-
-footer .col-md-1 div {
-    display: block; /* Asegura que los divs sean bloques */
-    margin-bottom: 50px; 
-    align-items: flex-start;/* Espacio entre los elementos */
-}
-
-footer a {
-    display: inline-flex; /* Alinea la imagen y el texto en línea */
-    align-items: center; /* Centra verticalmente la imagen y el texto */
-    text-decoration: none; /* Elimina el subrayado de los enlaces */
-    color: #000000; /* Color del enlace */
-}
-
-.titulo_footer {
-    font-weight: 700;
->>>>>>> 8e6655650ffd5f12542cf58532cf8bfe64f7f65c
 }
