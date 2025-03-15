@@ -13,7 +13,41 @@ body {
     background-color: #161815;
 }
 
+/*NAVBAR*/
+.logo { 
+    height: 100px; 
+    width: auto; 
+    transition: height 0.4s ease-in-out; 
+}
+
+/* Navbar transición suave */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el navbar quede sobre el carrusel */
+    transition: all 0.4s ease-in-out;
+    padding: 20px 0; 
+}
+
+/*Navbar más pequeño cuando se hace scroll */
+.navbar.shrink {
+    padding: 10px 5px !important; 
+    background-color: rgba(33, 37, 41, 0.9); 
+}
+
+/*Logo más pequeño cuando se hace scroll */
+.navbar.shrink .logo {
+    height: 50px; 
+}
+
 /*CAROUSEL*/
+
+.carousel{
+    margin-top: 110px;
+
+}
 .carousel-item {
     height: 80vh;
     min-height: 300px;
@@ -25,12 +59,12 @@ body {
 }
 
 .carousel-caption h5 {
-    font-size: 45px;
+    font-size: 50px;
     text-transform: uppercase;
 }
 
 .carousel-caption p {
-    width: 60%;
+    width: 80%;
     margin: auto;
     font-size: 18px;
     line-height: 1.9;
